@@ -8,11 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		E5638432207CB8D400ED5400 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5638431207CB8D400ED5400 /* AppDelegate.swift */; };
-		E5638437207CB8D400ED5400 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5638435207CB8D400ED5400 /* Main.storyboard */; };
 		E5638439207CB8DD00ED5400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5638438207CB8DD00ED5400 /* Assets.xcassets */; };
 		E563843C207CB8DD00ED5400 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E563843A207CB8DD00ED5400 /* LaunchScreen.storyboard */; };
 		E5638447207CB8DD00ED5400 /* RxDMXMLYTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5638446207CB8DD00ED5400 /* RxDMXMLYTests.swift */; };
 		E5638452207CB8DD00ED5400 /* RxDMXMLYUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5638451207CB8DD00ED5400 /* RxDMXMLYUITests.swift */; };
+		E563847C207CC54D00ED5400 /* SZMainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E563847B207CC54D00ED5400 /* SZMainTabBarController.swift */; };
+		E563847E207CC60800ED5400 /* SZTabBarPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E563847D207CC60800ED5400 /* SZTabBarPlayView.swift */; };
+		E5638481207CD13500ED5400 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5638480207CD13500ED5400 /* Common.swift */; };
+		E5638484207CD62E00ED5400 /* UIColor+HexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5638483207CD62E00ED5400 /* UIColor+HexColor.swift */; };
+		E5638486207CDFD000ED5400 /* SZNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5638485207CDFD000ED5400 /* SZNavigationController.swift */; };
+		E563848D207CE13400ED5400 /* UIImage+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = E563848C207CE13400ED5400 /* UIImage+Color.swift */; };
+		E5638491207CE42F00ED5400 /* SZBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5638490207CE42F00ED5400 /* SZBaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +41,6 @@
 /* Begin PBXFileReference section */
 		E563842E207CB8D400ED5400 /* RxDMXMLY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxDMXMLY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5638431207CB8D400ED5400 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E5638436207CB8D400ED5400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5638438207CB8DD00ED5400 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E563843B207CB8DD00ED5400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E563843D207CB8DD00ED5400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +50,13 @@
 		E563844D207CB8DD00ED5400 /* RxDMXMLYUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxDMXMLYUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5638451207CB8DD00ED5400 /* RxDMXMLYUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxDMXMLYUITests.swift; sourceTree = "<group>"; };
 		E5638453207CB8DD00ED5400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E563847B207CC54D00ED5400 /* SZMainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SZMainTabBarController.swift; sourceTree = "<group>"; };
+		E563847D207CC60800ED5400 /* SZTabBarPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SZTabBarPlayView.swift; sourceTree = "<group>"; };
+		E5638480207CD13500ED5400 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		E5638483207CD62E00ED5400 /* UIColor+HexColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HexColor.swift"; sourceTree = "<group>"; };
+		E5638485207CDFD000ED5400 /* SZNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SZNavigationController.swift; sourceTree = "<group>"; };
+		E563848C207CE13400ED5400 /* UIImage+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Color.swift"; sourceTree = "<group>"; };
+		E5638490207CE42F00ED5400 /* SZBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SZBaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,12 +107,14 @@
 		E5638430207CB8D400ED5400 /* RxDMXMLY */ = {
 			isa = PBXGroup;
 			children = (
+				E563848F207CE40F00ED5400 /* Base */,
+				E5638482207CD5B200ED5400 /* Extension */,
 				E5638464207CB95200ED5400 /* AppDelegate */,
 				E5638466207CBA6300ED5400 /* Main */,
 				E5638462207CB92F00ED5400 /* 3thPart */,
 				E5638461207CB92000ED5400 /* Manager */,
 				E5638460207CB90800ED5400 /* Utils */,
-				E5638435207CB8D400ED5400 /* Main.storyboard */,
+				E563847F207CD0C100ED5400 /* Common */,
 				E5638438207CB8DD00ED5400 /* Assets.xcassets */,
 				E563843A207CB8DD00ED5400 /* LaunchScreen.storyboard */,
 				E563843D207CB8DD00ED5400 /* Info.plist */,
@@ -163,6 +177,8 @@
 				E563846F207CBA6300ED5400 /* Home */,
 				E5638473207CBA6300ED5400 /* Mine */,
 				E5638477207CBA6300ED5400 /* Play */,
+				E563847B207CC54D00ED5400 /* SZMainTabBarController.swift */,
+				E5638485207CDFD000ED5400 /* SZNavigationController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -318,8 +334,34 @@
 		E563847A207CBA6300ED5400 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E563847D207CC60800ED5400 /* SZTabBarPlayView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		E563847F207CD0C100ED5400 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E5638480207CD13500ED5400 /* Common.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E5638482207CD5B200ED5400 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E5638483207CD62E00ED5400 /* UIColor+HexColor.swift */,
+				E563848C207CE13400ED5400 /* UIImage+Color.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E563848F207CE40F00ED5400 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E5638490207CE42F00ED5400 /* SZBaseViewController.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -390,6 +432,7 @@
 				TargetAttributes = {
 					E563842D207CB8D400ED5400 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 					E5638441207CB8DD00ED5400 = {
 						CreatedOnToolsVersion = 9.3;
@@ -428,7 +471,6 @@
 			files = (
 				E563843C207CB8DD00ED5400 /* LaunchScreen.storyboard in Resources */,
 				E5638439207CB8DD00ED5400 /* Assets.xcassets in Resources */,
-				E5638437207CB8D400ED5400 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,7 +495,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5638481207CD13500ED5400 /* Common.swift in Sources */,
+				E563847E207CC60800ED5400 /* SZTabBarPlayView.swift in Sources */,
 				E5638432207CB8D400ED5400 /* AppDelegate.swift in Sources */,
+				E5638484207CD62E00ED5400 /* UIColor+HexColor.swift in Sources */,
+				E5638491207CE42F00ED5400 /* SZBaseViewController.swift in Sources */,
+				E5638486207CDFD000ED5400 /* SZNavigationController.swift in Sources */,
+				E563848D207CE13400ED5400 /* UIImage+Color.swift in Sources */,
+				E563847C207CC54D00ED5400 /* SZMainTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,14 +538,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E5638435207CB8D400ED5400 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E5638436207CB8D400ED5400 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E563843A207CB8DD00ED5400 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -626,6 +667,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MP46YHL9C7;
 				INFOPLIST_FILE = RxDMXMLY/Info.plist;
@@ -636,6 +678,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sidney.RxDMXMLY;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -645,6 +688,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MP46YHL9C7;
 				INFOPLIST_FILE = RxDMXMLY/Info.plist;
