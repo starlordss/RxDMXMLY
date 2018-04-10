@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E5638432207CB8D400ED5400 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5638431207CB8D400ED5400 /* AppDelegate.swift */; };
-		E5638434207CB8D400ED5400 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5638433207CB8D400ED5400 /* ViewController.swift */; };
 		E5638437207CB8D400ED5400 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5638435207CB8D400ED5400 /* Main.storyboard */; };
 		E5638439207CB8DD00ED5400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5638438207CB8DD00ED5400 /* Assets.xcassets */; };
 		E563843C207CB8DD00ED5400 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E563843A207CB8DD00ED5400 /* LaunchScreen.storyboard */; };
@@ -36,7 +35,6 @@
 /* Begin PBXFileReference section */
 		E563842E207CB8D400ED5400 /* RxDMXMLY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxDMXMLY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5638431207CB8D400ED5400 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E5638433207CB8D400ED5400 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E5638436207CB8D400ED5400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5638438207CB8DD00ED5400 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E563843B207CB8DD00ED5400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,8 +95,11 @@
 		E5638430207CB8D400ED5400 /* RxDMXMLY */ = {
 			isa = PBXGroup;
 			children = (
-				E5638431207CB8D400ED5400 /* AppDelegate.swift */,
-				E5638433207CB8D400ED5400 /* ViewController.swift */,
+				E5638464207CB95200ED5400 /* AppDelegate */,
+				E5638466207CBA6300ED5400 /* Main */,
+				E5638462207CB92F00ED5400 /* 3thPart */,
+				E5638461207CB92000ED5400 /* Manager */,
+				E5638460207CB90800ED5400 /* Utils */,
 				E5638435207CB8D400ED5400 /* Main.storyboard */,
 				E5638438207CB8DD00ED5400 /* Assets.xcassets */,
 				E563843A207CB8DD00ED5400 /* LaunchScreen.storyboard */,
@@ -123,6 +124,202 @@
 				E5638453207CB8DD00ED5400 /* Info.plist */,
 			);
 			path = RxDMXMLYUITests;
+			sourceTree = "<group>";
+		};
+		E5638460207CB90800ED5400 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E5638461207CB92000ED5400 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		E5638462207CB92F00ED5400 /* 3thPart */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 3thPart;
+			sourceTree = "<group>";
+		};
+		E5638464207CB95200ED5400 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				E5638431207CB8D400ED5400 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		E5638466207CBA6300ED5400 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E5638467207CBA6300ED5400 /* Find */,
+				E563846B207CBA6300ED5400 /* Headr */,
+				E563846F207CBA6300ED5400 /* Home */,
+				E5638473207CBA6300ED5400 /* Mine */,
+				E5638477207CBA6300ED5400 /* Play */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E5638467207CBA6300ED5400 /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				E5638468207CBA6300ED5400 /* Controller */,
+				E5638469207CBA6300ED5400 /* Model */,
+				E563846A207CBA6300ED5400 /* View */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		E5638468207CBA6300ED5400 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E5638469207CBA6300ED5400 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E563846A207CBA6300ED5400 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E563846B207CBA6300ED5400 /* Headr */ = {
+			isa = PBXGroup;
+			children = (
+				E563846C207CBA6300ED5400 /* Controller */,
+				E563846D207CBA6300ED5400 /* Model */,
+				E563846E207CBA6300ED5400 /* View */,
+			);
+			path = Headr;
+			sourceTree = "<group>";
+		};
+		E563846C207CBA6300ED5400 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E563846D207CBA6300ED5400 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E563846E207CBA6300ED5400 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E563846F207CBA6300ED5400 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E5638470207CBA6300ED5400 /* Controller */,
+				E5638471207CBA6300ED5400 /* Model */,
+				E5638472207CBA6300ED5400 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E5638470207CBA6300ED5400 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E5638471207CBA6300ED5400 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E5638472207CBA6300ED5400 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E5638473207CBA6300ED5400 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				E5638474207CBA6300ED5400 /* Controller */,
+				E5638475207CBA6300ED5400 /* Model */,
+				E5638476207CBA6300ED5400 /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		E5638474207CBA6300ED5400 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E5638475207CBA6300ED5400 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E5638476207CBA6300ED5400 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E5638477207CBA6300ED5400 /* Play */ = {
+			isa = PBXGroup;
+			children = (
+				E5638478207CBA6300ED5400 /* Controller */,
+				E5638479207CBA6300ED5400 /* Model */,
+				E563847A207CBA6300ED5400 /* View */,
+			);
+			path = Play;
+			sourceTree = "<group>";
+		};
+		E5638478207CBA6300ED5400 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E5638479207CBA6300ED5400 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E563847A207CBA6300ED5400 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +453,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5638434207CB8D400ED5400 /* ViewController.swift in Sources */,
 				E5638432207CB8D400ED5400 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +629,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MP46YHL9C7;
 				INFOPLIST_FILE = RxDMXMLY/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -440,7 +637,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sidney.RxDMXMLY;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -451,6 +648,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MP46YHL9C7;
 				INFOPLIST_FILE = RxDMXMLY/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,7 +656,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sidney.RxDMXMLY;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
