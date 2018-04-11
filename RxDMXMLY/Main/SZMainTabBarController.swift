@@ -80,7 +80,8 @@ extension SZMainTabBarController {
             vc.tabBarItem = item;
             
             // FIXME: dddddddddddd
-//            let navVc =
+            let navVC = SZNavigationController(rootViewController: vc)
+            tabs.append(navVC)
         }
     }
     
@@ -99,5 +100,21 @@ extension SZMainTabBarController {
 
 // MARK:- UITabBarControllerDelegate
 extension SZMainTabBarController: UITabBarControllerDelegate {
+    
+    func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
+        if viewController == tabBarController.viewControllers![2] {
+            return false
+        }
+        return true
+    }
+}
+
+// MARK:- 控制器跳转
+extension SZMainTabBarController {
+    // 登录
+//    func jump2Login() {
+//        let vc = SZNavigationController(rootViewController: )
+//    }
+    // 播放
     
 }

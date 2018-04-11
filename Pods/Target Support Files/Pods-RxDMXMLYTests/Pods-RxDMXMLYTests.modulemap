@@ -1,0 +1,6 @@
+framework module Pods_RxDMXMLYTests {
+  umbrella header "Pods-RxDMXMLYTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

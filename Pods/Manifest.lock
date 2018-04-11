@@ -1,0 +1,124 @@
+PODS:
+  - Alamofire (4.7.1)
+  - Differentiator (3.0.2)
+  - IQKeyboardManagerSwift (5.0.8)
+  - Kingfisher (4.7.0)
+  - MJRefresh (3.1.15.3)
+  - Moya (11.0.2):
+    - Moya/Core (= 11.0.2)
+  - Moya/Core (11.0.2):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - "NSObject+Rx (4.3.0)":
+    - RxSwift (~> 4.0)
+  - ObjectMapper (3.1.0)
+  - ReactorKit (1.1.0):
+    - RxSwift (>= 4.0.0)
+  - Result (3.2.4)
+  - ReusableKit (2.0.1):
+    - ReusableKit/Core (= 2.0.1)
+  - ReusableKit/Core (2.0.1)
+  - RxAlamofire (4.2.0):
+    - RxAlamofire/Core (= 4.2.0)
+  - RxAlamofire/Core (4.2.0):
+    - Alamofire (~> 4.5)
+    - RxSwift (~> 4)
+  - RxCocoa (4.1.2):
+    - RxSwift (~> 4.0)
+  - RxDataSources (3.0.2):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxGesture (1.2.1):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.2)
+  - SnapKit (4.0.0)
+  - SwiftyColor (1.0.0)
+  - SwiftyJSON (4.0.0)
+  - Then (2.3.0)
+  - TTRangeSlider (1.0.5)
+  - TYCyclePagerView (1.1.0)
+  - TYPagerController (2.1.2)
+  - URLNavigator (2.0.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - MJRefresh
+  - Moya
+  - "NSObject+Rx"
+  - ObjectMapper
+  - ReactorKit
+  - ReusableKit
+  - RxAlamofire
+  - RxCocoa
+  - RxDataSources (~> 3.0)
+  - RxGesture
+  - RxSwift (~> 4.0)
+  - SnapKit
+  - SwiftyColor
+  - SwiftyJSON
+  - Then
+  - TTRangeSlider
+  - TYCyclePagerView
+  - TYPagerController
+  - URLNavigator
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Differentiator
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - MJRefresh
+    - Moya
+    - "NSObject+Rx"
+    - ObjectMapper
+    - ReactorKit
+    - Result
+    - ReusableKit
+    - RxAlamofire
+    - RxCocoa
+    - RxDataSources
+    - RxGesture
+    - RxSwift
+    - SnapKit
+    - SwiftyColor
+    - SwiftyJSON
+    - Then
+    - TTRangeSlider
+    - TYCyclePagerView
+    - TYPagerController
+    - URLNavigator
+
+SPEC CHECKSUMS:
+  Alamofire: 68d7d521118d49c615a8d2214d87cdf525599d30
+  Differentiator: a87be69eba49ec4ab460c7671143ee3a9eececfd
+  IQKeyboardManagerSwift: 2e7dc7f98c111458c1ea2b373f893e8cf95e2b97
+  Kingfisher: da6b005aa96d37698e3e4f1ccfe96a5b9bbf27d6
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  Moya: a725035953bc1c0eb1be505ab903984501d82440
+  "NSObject+Rx": 9a5eeff5e08156f849fa973514456f28eef08742
+  ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
+  ReactorKit: 26470a9eff5094fae909a30af0be7cd0cf8a182d
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  ReusableKit: 11b5bde14553a35bcf3979412dbfd1e690392f14
+  RxAlamofire: 87a9c588541210cc3e4a1f843ccc3ecf3eb98b31
+  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxDataSources: cb7c31e652a87ebb919da45f716bbb87b3765f6b
+  RxGesture: c278eb05b187abd47e11e65464ae4de53ab71d95
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SwiftyColor: 7fa09db14051bc5d7f539e1c4576665975225992
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  Then: ee21c97b85ff6062b9b0080c9abb1eea46743345
+  TTRangeSlider: 2f2ce4a33b32bb323c6575b9f5161c4664459c58
+  TYCyclePagerView: b70858c9b5d0e80e1e3129ff5ceb027eb0f76d44
+  TYPagerController: 262556ecef99986d26ed77fb1288a198ed42f4af
+  URLNavigator: af5582fbbb3586c958be16835d799bfdb23a4793
+
+PODFILE CHECKSUM: 2f441fcf3d797ebdaab232916f483f7abba27596
+
+COCOAPODS: 1.5.0
