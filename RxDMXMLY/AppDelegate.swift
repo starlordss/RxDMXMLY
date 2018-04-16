@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import IQKeyboardManagerSwift
 
 
 @UIApplicationMain
@@ -16,6 +17,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        UITableView.appearance().estimatedRowHeight = 0
+        UITableView.appearance().estimatedSectionFooterHeight = 0
+        UITableView.appearance().estimatedSectionHeaderHeight = 0
+        
+        IQKeyboardManager.sharedManager().enable = true
+
+        let rootVc = SZMainTabBarController()
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = rootVc
+        window?.makeKeyAndVisible()
         
         return true
     }

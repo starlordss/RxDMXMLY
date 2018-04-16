@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SnapKit
 
 //var mainTabBarController : SZMainTabBarController?
 
@@ -37,12 +38,10 @@ class SZMainTabBarController: UITabBarController {
         self.tabBar.layer.shadowRadius = 3.0
         
         // 初始化子控制器
-        
+        self.setupSubViewControllers()
         // 初始化播放按钮
         self.setupPlayView()
-        
     }
-
 }
 
 // MARK:- 初始化子控制器
@@ -56,11 +55,20 @@ extension SZMainTabBarController {
     private func setupPlayView() {
         view.addSubview(playView)
         
+        playView.snp.makeConstraints { (make) in
+            make.width.height.equalTo(SZTabBarPlayView.width())
+            make.centerX.equalToSuperview()
+            if isX {
+                make.bottom.equalToSuperview().offset(-MetricGlobal.padding * 0.5 - kXBottomH)
+            } else {
+                make.bottom.equalToSuperview().offset(-MetricGlobal.padding * 0.5)
+            }
+        }
     }
     
     // MARK:- 初始化子控制器
     private func setupSubViewControllers() {
-        let classNames = ["home","Hear", "Find", "Mine"]
+        let classNames = ["Home","Hear", "Find", "Mine"]
         let titles = ["首页", "我听", "发现", "我的"];
         var tabs: [UIViewController] = []
         let projectName = self.projectName()
@@ -69,7 +77,9 @@ extension SZMainTabBarController {
             let clsName = classNames[i]
             // 转为小写
             let lowStr = clsName.lowercased()
-            let cls = NSClassFromString(projectName + "HC" + clsName + "ViewController") as! UIViewController.Type
+            DLog(projectName + "SZ" + clsName + "ViewController")
+            let cls = NSClassFromString(projectName + "SZ" + clsName + "ViewController") as! UIViewController.Type
+            
             let vc = cls.init()
             vc.title = titles[i]
             let image = UIImage(named: "tabbar_icon_" + lowStr + "_normal")
@@ -79,12 +89,17 @@ extension SZMainTabBarController {
             item.imageInsets = UIEdgeInsets(top: 0, left: 0, bottom: -8, right: 0)
             vc.tabBarItem = item;
             
-            // FIXME: dddddddddddd
             let navVC = SZNavigationController(rootViewController: vc)
             tabs.append(navVC)
         }
+        let placeVC = UIViewController()
+        placeVC.view.backgroundColor = kThemeWhiteColor
+        
+        tabs.insert(placeVC, at: 2)
+        self.viewControllers = tabs
     }
     
+    // 获取项目名
     private func projectName() -> String {
         guard let infoDict = Bundle.main.infoDictionary else {
             return "."

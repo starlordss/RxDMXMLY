@@ -15,13 +15,19 @@
 		E563843C207CB8DD00ED5400 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E563843A207CB8DD00ED5400 /* LaunchScreen.storyboard */; };
 		E5638447207CB8DD00ED5400 /* RxDMXMLYTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5638446207CB8DD00ED5400 /* RxDMXMLYTests.swift */; };
 		E5638452207CB8DD00ED5400 /* RxDMXMLYUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5638451207CB8DD00ED5400 /* RxDMXMLYUITests.swift */; };
-		E563847C207CC54D00ED5400 /* SZMainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E563847B207CC54D00ED5400 /* SZMainTabBarController.swift */; };
-		E563847E207CC60800ED5400 /* SZTabBarPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E563847D207CC60800ED5400 /* SZTabBarPlayView.swift */; };
 		E5638481207CD13500ED5400 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5638480207CD13500ED5400 /* Common.swift */; };
 		E5638484207CD62E00ED5400 /* UIColor+HexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5638483207CD62E00ED5400 /* UIColor+HexColor.swift */; };
-		E5638486207CDFD000ED5400 /* SZNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5638485207CDFD000ED5400 /* SZNavigationController.swift */; };
 		E563848D207CE13400ED5400 /* UIImage+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = E563848C207CE13400ED5400 /* UIImage+Color.swift */; };
 		E5638491207CE42F00ED5400 /* SZBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5638490207CE42F00ED5400 /* SZBaseViewController.swift */; };
+		E56384B9207F01DD00ED5400 /* SZTabBarPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56384AE207F01DD00ED5400 /* SZTabBarPlayView.swift */; };
+		E56384BF208435C800ED5400 /* SZHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56384BE208435C800ED5400 /* SZHomeViewController.swift */; };
+		E56384C12084362700ED5400 /* SZHearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56384C02084362700ED5400 /* SZHearViewController.swift */; };
+		E56384C32084363200ED5400 /* SZFindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56384C22084363200ED5400 /* SZFindViewController.swift */; };
+		E56384C62084365F00ED5400 /* SZPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56384C52084365F00ED5400 /* SZPlayViewController.swift */; };
+		E56384C920843A6200ED5400 /* SZMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56384C820843A6200ED5400 /* SZMineViewController.swift */; };
+		E56384DF2084402900ED5400 /* SZNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56384DD2084402900ED5400 /* SZNavigationController.swift */; };
+		E56384E02084402900ED5400 /* SZMainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56384DE2084402900ED5400 /* SZMainTabBarController.swift */; };
+		E56384E2208447F900ED5400 /* UIView+SZFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56384E1208447F900ED5400 /* UIView+SZFrame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,13 +68,19 @@
 		E563844D207CB8DD00ED5400 /* RxDMXMLYUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxDMXMLYUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5638451207CB8DD00ED5400 /* RxDMXMLYUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxDMXMLYUITests.swift; sourceTree = "<group>"; };
 		E5638453207CB8DD00ED5400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E563847B207CC54D00ED5400 /* SZMainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SZMainTabBarController.swift; sourceTree = "<group>"; };
-		E563847D207CC60800ED5400 /* SZTabBarPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SZTabBarPlayView.swift; sourceTree = "<group>"; };
 		E5638480207CD13500ED5400 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		E5638483207CD62E00ED5400 /* UIColor+HexColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HexColor.swift"; sourceTree = "<group>"; };
-		E5638485207CDFD000ED5400 /* SZNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SZNavigationController.swift; sourceTree = "<group>"; };
 		E563848C207CE13400ED5400 /* UIImage+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Color.swift"; sourceTree = "<group>"; };
 		E5638490207CE42F00ED5400 /* SZBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SZBaseViewController.swift; sourceTree = "<group>"; };
+		E56384AE207F01DD00ED5400 /* SZTabBarPlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SZTabBarPlayView.swift; sourceTree = "<group>"; };
+		E56384BE208435C800ED5400 /* SZHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SZHomeViewController.swift; sourceTree = "<group>"; };
+		E56384C02084362700ED5400 /* SZHearViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SZHearViewController.swift; sourceTree = "<group>"; };
+		E56384C22084363200ED5400 /* SZFindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SZFindViewController.swift; sourceTree = "<group>"; };
+		E56384C52084365F00ED5400 /* SZPlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SZPlayViewController.swift; sourceTree = "<group>"; };
+		E56384C820843A6200ED5400 /* SZMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SZMineViewController.swift; sourceTree = "<group>"; };
+		E56384DD2084402900ED5400 /* SZNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SZNavigationController.swift; sourceTree = "<group>"; };
+		E56384DE2084402900ED5400 /* SZMainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SZMainTabBarController.swift; sourceTree = "<group>"; };
+		E56384E1208447F900ED5400 /* UIView+SZFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+SZFrame.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,13 +159,16 @@
 		E5638430207CB8D400ED5400 /* RxDMXMLY */ = {
 			isa = PBXGroup;
 			children = (
-				E563848F207CE40F00ED5400 /* Base */,
-				E5638482207CD5B200ED5400 /* Extension */,
-				E5638466207CBA6300ED5400 /* Main */,
-				E5638462207CB92F00ED5400 /* 3thPart */,
-				E5638461207CB92000ED5400 /* Manager */,
-				E5638460207CB90800ED5400 /* Utils */,
-				E563847F207CD0C100ED5400 /* Common */,
+				E5638431207CB8D400ED5400 /* AppDelegate.swift */,
+				E56384D320843C7800ED5400 /* ViewModel */,
+				E56384D220843C6D00ED5400 /* ViewController */,
+				E56384D120843C6000ED5400 /* View */,
+				E56384D020843C5300ED5400 /* Vendor */,
+				E56384CF20843C4A00ED5400 /* Util */,
+				E56384CE20843C3600ED5400 /* Resource */,
+				E56384CD20843C2900ED5400 /* Manager */,
+				E56384CC20843C1700ED5400 /* Model */,
+				E56384CB20843BF500ED5400 /* Define */,
 				E5638438207CB8DD00ED5400 /* Assets.xcassets */,
 				E563843A207CB8DD00ED5400 /* LaunchScreen.storyboard */,
 				E563843D207CB8DD00ED5400 /* Info.plist */,
@@ -179,221 +194,144 @@
 			path = RxDMXMLYUITests;
 			sourceTree = "<group>";
 		};
-		E5638460207CB90800ED5400 /* Utils */ = {
+		E5638482207CD5B200ED5400 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E5638483207CD62E00ED5400 /* UIColor+HexColor.swift */,
+				E563848C207CE13400ED5400 /* UIImage+Color.swift */,
+				E56384E1208447F900ED5400 /* UIView+SZFrame.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E56384CB20843BF500ED5400 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				E5638480207CD13500ED5400 /* Common.swift */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		E56384CC20843C1700ED5400 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Utils;
+			path = Model;
 			sourceTree = "<group>";
 		};
-		E5638461207CB92000ED5400 /* Manager */ = {
+		E56384CD20843C2900ED5400 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Manager;
 			sourceTree = "<group>";
 		};
-		E5638462207CB92F00ED5400 /* 3thPart */ = {
+		E56384CE20843C3600ED5400 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = 3thPart;
+			path = Resource;
 			sourceTree = "<group>";
 		};
-		E5638466207CBA6300ED5400 /* Main */ = {
+		E56384CF20843C4A00ED5400 /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				E5638467207CBA6300ED5400 /* Find */,
-				E563846B207CBA6300ED5400 /* Headr */,
-				E563846F207CBA6300ED5400 /* Home */,
-				E5638473207CBA6300ED5400 /* Mine */,
-				E5638477207CBA6300ED5400 /* Play */,
-				E563847B207CC54D00ED5400 /* SZMainTabBarController.swift */,
-				E5638485207CDFD000ED5400 /* SZNavigationController.swift */,
+				E5638482207CD5B200ED5400 /* Extension */,
 			);
-			path = Main;
+			path = Util;
 			sourceTree = "<group>";
 		};
-		E5638467207CBA6300ED5400 /* Find */ = {
-			isa = PBXGroup;
-			children = (
-				E5638468207CBA6300ED5400 /* Controller */,
-				E5638469207CBA6300ED5400 /* Model */,
-				E563846A207CBA6300ED5400 /* View */,
-			);
-			path = Find;
-			sourceTree = "<group>";
-		};
-		E5638468207CBA6300ED5400 /* Controller */ = {
+		E56384D020843C5300ED5400 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Controller;
+			path = Vendor;
 			sourceTree = "<group>";
 		};
-		E5638469207CBA6300ED5400 /* Model */ = {
+		E56384D120843C6000ED5400 /* View */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		E563846A207CBA6300ED5400 /* View */ = {
-			isa = PBXGroup;
-			children = (
+				E56384D520843CD700ED5400 /* Home */,
+				E56384D420843CBD00ED5400 /* Play */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		E563846B207CBA6300ED5400 /* Headr */ = {
+		E56384D220843C6D00ED5400 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				E563846C207CBA6300ED5400 /* Controller */,
-				E563846D207CBA6300ED5400 /* Model */,
-				E563846E207CBA6300ED5400 /* View */,
+				E56384DE2084402900ED5400 /* SZMainTabBarController.swift */,
+				E56384DD2084402900ED5400 /* SZNavigationController.swift */,
+				E5638490207CE42F00ED5400 /* SZBaseViewController.swift */,
+				E56384DA20843D9800ED5400 /* Play */,
+				E56384D620843CE800ED5400 /* Home */,
+				E56384D920843D2300ED5400 /* Mine */,
+				E56384D820843D0E00ED5400 /* Hear */,
+				E56384D720843CF700ED5400 /* Find */,
 			);
-			path = Headr;
+			path = ViewController;
 			sourceTree = "<group>";
 		};
-		E563846C207CBA6300ED5400 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		E563846D207CBA6300ED5400 /* Model */ = {
+		E56384D320843C7800ED5400 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Model;
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		E563846E207CBA6300ED5400 /* View */ = {
+		E56384D420843CBD00ED5400 /* Play */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		E563846F207CBA6300ED5400 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				E5638470207CBA6300ED5400 /* Controller */,
-				E5638471207CBA6300ED5400 /* Model */,
-				E5638472207CBA6300ED5400 /* View */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		E5638470207CBA6300ED5400 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		E5638471207CBA6300ED5400 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		E5638472207CBA6300ED5400 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		E5638473207CBA6300ED5400 /* Mine */ = {
-			isa = PBXGroup;
-			children = (
-				E5638474207CBA6300ED5400 /* Controller */,
-				E5638475207CBA6300ED5400 /* Model */,
-				E5638476207CBA6300ED5400 /* View */,
-			);
-			path = Mine;
-			sourceTree = "<group>";
-		};
-		E5638474207CBA6300ED5400 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		E5638475207CBA6300ED5400 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		E5638476207CBA6300ED5400 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		E5638477207CBA6300ED5400 /* Play */ = {
-			isa = PBXGroup;
-			children = (
-				E5638478207CBA6300ED5400 /* Controller */,
-				E5638479207CBA6300ED5400 /* Model */,
-				E563847A207CBA6300ED5400 /* View */,
+				E56384AE207F01DD00ED5400 /* SZTabBarPlayView.swift */,
 			);
 			path = Play;
 			sourceTree = "<group>";
 		};
-		E5638478207CBA6300ED5400 /* Controller */ = {
+		E56384D520843CD700ED5400 /* Home */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Controller;
+			path = Home;
 			sourceTree = "<group>";
 		};
-		E5638479207CBA6300ED5400 /* Model */ = {
+		E56384D620843CE800ED5400 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				E56384BE208435C800ED5400 /* SZHomeViewController.swift */,
 			);
-			path = Model;
+			path = Home;
 			sourceTree = "<group>";
 		};
-		E563847A207CBA6300ED5400 /* View */ = {
+		E56384D720843CF700ED5400 /* Find */ = {
 			isa = PBXGroup;
 			children = (
-				E563847D207CC60800ED5400 /* SZTabBarPlayView.swift */,
+				E56384C22084363200ED5400 /* SZFindViewController.swift */,
 			);
-			path = View;
+			path = Find;
 			sourceTree = "<group>";
 		};
-		E563847F207CD0C100ED5400 /* Common */ = {
+		E56384D820843D0E00ED5400 /* Hear */ = {
 			isa = PBXGroup;
 			children = (
-				E5638480207CD13500ED5400 /* Common.swift */,
+				E56384C02084362700ED5400 /* SZHearViewController.swift */,
 			);
-			path = Common;
+			path = Hear;
 			sourceTree = "<group>";
 		};
-		E5638482207CD5B200ED5400 /* Extension */ = {
+		E56384D920843D2300ED5400 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
-				E5638483207CD62E00ED5400 /* UIColor+HexColor.swift */,
-				E563848C207CE13400ED5400 /* UIImage+Color.swift */,
+				E56384C820843A6200ED5400 /* SZMineViewController.swift */,
 			);
-			path = Extension;
+			path = Mine;
 			sourceTree = "<group>";
 		};
-		E563848F207CE40F00ED5400 /* Base */ = {
+		E56384DA20843D9800ED5400 /* Play */ = {
 			isa = PBXGroup;
 			children = (
-				E5638490207CE42F00ED5400 /* SZBaseViewController.swift */,
-				E5638431207CB8D400ED5400 /* AppDelegate.swift */,
+				E56384C52084365F00ED5400 /* SZPlayViewController.swift */,
 			);
-			path = Base;
+			path = Play;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -462,6 +400,7 @@
 		E5638426207CB8D400ED5400 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SZ;
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Sidney;
@@ -652,14 +591,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E56384B9207F01DD00ED5400 /* SZTabBarPlayView.swift in Sources */,
+				E56384BF208435C800ED5400 /* SZHomeViewController.swift in Sources */,
 				E5638481207CD13500ED5400 /* Common.swift in Sources */,
-				E563847E207CC60800ED5400 /* SZTabBarPlayView.swift in Sources */,
+				E56384C32084363200ED5400 /* SZFindViewController.swift in Sources */,
+				E56384E2208447F900ED5400 /* UIView+SZFrame.swift in Sources */,
+				E56384DF2084402900ED5400 /* SZNavigationController.swift in Sources */,
 				E5638432207CB8D400ED5400 /* AppDelegate.swift in Sources */,
+				E56384E02084402900ED5400 /* SZMainTabBarController.swift in Sources */,
 				E5638484207CD62E00ED5400 /* UIColor+HexColor.swift in Sources */,
 				E5638491207CE42F00ED5400 /* SZBaseViewController.swift in Sources */,
-				E5638486207CDFD000ED5400 /* SZNavigationController.swift in Sources */,
 				E563848D207CE13400ED5400 /* UIImage+Color.swift in Sources */,
-				E563847C207CC54D00ED5400 /* SZMainTabBarController.swift in Sources */,
+				E56384C920843A6200ED5400 /* SZMineViewController.swift in Sources */,
+				E56384C12084362700ED5400 /* SZHearViewController.swift in Sources */,
+				E56384C62084365F00ED5400 /* SZPlayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
